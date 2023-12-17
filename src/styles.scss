@@ -1,0 +1,139 @@
+/* styles.scss */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Reset de Estilos */
+
+/* Box-sizing border-box para un mejor control del modelo de caja */
+// *,
+// *::before,
+// *::after {
+//   box-sizing: border-box;
+// }
+
+// /* Margin y padding por defecto a 0 */
+// body,
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6,
+// p,
+// blockquote,
+// figure,
+// ol,
+// ul {
+//   margin: 0;
+//   padding: 0;
+// }
+
+// /* Listas sin estilos (puntos, numeración) */
+// ol,
+// ul {
+//   list-style: none;
+// }
+
+// /* Establecer márgenes y relleno predeterminados en elementos de formulario */
+// button,
+// input,
+// optgroup,
+// select,
+// textarea {
+//   margin: 0;
+// }
+
+// /* Corregir el espaciado en Safari */
+// code,
+// pre {
+//   font-family: monospace, monospace;
+//   line-height: 1.6;
+// }
+
+// /* Tamaños de fuente predeterminados del usuario con un incremento sensible */
+// body {
+//   font-size: 16px;
+//   line-height: 1.6;
+// }
+
+// /* Evitar el salto de imagen en línea */
+// img {
+//   display: block;
+//   height: auto;
+//   max-width: 100%;
+// }
+
+// /* Restablecer estilos de tabla para la coherencia de diseño en todos los navegadores */
+// table {
+//   border-collapse: collapse;
+//   width: 100%;
+// }
+
+// /* Eliminar enlaces subrayados y cambiar el color a azul */
+// a {
+//   color: inherit;
+//   text-decoration: none;
+// }
+
+// /* You can add global styles to this file, and also import other style files */
+
+// /*Brand Principal*/
+// $brand-principal-light: #fcf0cb;
+// $brand-principal-lighter: #fc9204;
+// $brand-principal: #d56600;
+// $brand-principal-darker: #b94804;
+
+// /*Background*/
+// $background-light: #2b3544;
+// $background-dark: #1f2937;
+
+// /* Background Lines*/
+// $background-lines-light: #4b4b4b;
+// $background-lines: #374151;
+
+// /* Logo Color*/
+// $logo-color: #ffffff;
+
+// /*Text Color*/
+// $titles-text-color: #f3f4f6;
+// $paragraphs-text-color: #d1d5db;
+
+// h1 {
+//   color: $titles-text-color;
+//   font-size: 30px;
+//   font-style: normal;
+//   font-weight: 800;
+//   line-height: 24px; /* 80% */
+// }
+
+// h2 {
+//   color: $titles-text-color;
+//   font-size: 24px;
+//   font-style: normal;
+//   font-weight: 700;
+//   line-height: 24px; /* 100% */
+// }
+
+// h3 {
+//   color: $titles-text-color;
+//   font-size: 18px;
+//   font-style: normal;
+//   font-weight: 700;
+//   line-height: 24px; /* 133.333% */
+// }
+
+// p {
+//   color: $paragraphs-text-color;
+//   font-size: 18px;
+//   font-style: normal;
+//   font-weight: 400;
+//   line-height: 24px; /* 133.333% */
+// }
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
